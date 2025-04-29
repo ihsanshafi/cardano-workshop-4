@@ -1,0 +1,19 @@
+{
+  "name": "cardano-vesting-contract",
+  "version": "1.0.0",
+  "description": "Cardano Vesting Contract",
+  "main": "index.js",
+  "scripts": {
+    "generate": "ts-node generate-credentials.ts",
+    "lock": "ts-node lock-funds.ts",
+    "unlock": "ts-node unlock-funds.ts"
+  },
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-nodejs": "^11.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "preamble": {
+    "title": "vesting",
+    "description": "Aiken vesting contract for Cardano",
+    "version": "0.0.0",
+    "plutusVersion": "v3",
+    "compiler": {
+      "name": "Aiken",
+      "version": "1.0.0"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "vesting",
+      "datum": {
+        "title": "Datum",
+        "schema": {
+          "$ref": "#/definitions/Datum"
+        }
+      },
+      "redeemer": {
+        "title": "Redeemer",
+        "schema": {
+          "$ref": "#/definitions/Redeemer"
+        }
+      },
+      "compiledCode": "590123456789abcdef...", // Placeholder
+      "hash": "f5c4g9b3d8e2f1a0b6c7d9e0a2b3c4d5e6f78901abcdef234567"
+    }
+  ],
+  "definitions": {
+    "Datum": {
+      "title": "Datum",
+      "dataType": "constructor",
+      "index": 0,
+      "fields": [
+        {
+          "title": "owner",
+          "dataType": "bytes"
+        },
+        {
+          "title": "deadline",
+          "dataType": "integer"
+        }
+      ]
+    },
+    "Redeemer": {
+      "title": "Redeemer",
+      "dataType": "constructor",
+      "index": 0,
+      "fields": []
+    }
+  }
+}

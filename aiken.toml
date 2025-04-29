@@ -1,0 +1,12 @@
+[package]
+name = "vesting"
+version = "0.1.0"
+description = "Cardano Vesting Contract"
+license = "Apache-2.0"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+aiken = { version = "1.0.0" }
+
+[compiler]
+target = "plutus" 
